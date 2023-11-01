@@ -8,9 +8,7 @@ int main(){
   int x;
   
   cout<<"Enter an integer\n>>";
-  cin>> x;
-
-  
+  cin>> x;  
 
   cout<<x << " cubed is " << cubeNumber(x);
   
@@ -19,6 +17,5 @@ int main(){
 
 int cubeNumber(int number){
 
-  return (number * number) * number;
-  
+  return (number * number) * number;  
 }
